@@ -1,0 +1,17 @@
+
+```{r}
+library(lpSolveAPI)
+x <- read.lp("ap.lp")
+x
+```
+
+
+```{r}
+solve(x)
+get.objective(x)
+get.variables(x)
+
+
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

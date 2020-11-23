@@ -11,7 +11,14 @@ solve(x)
 get.objective(x)
 get.variables(x)
 
+[1] 0
+[1] 25250
+[1] 9.333333 1.333333 4.000000 6.333333 0.000000 7.333333 4.000000
+
 
 ```
+The 0 means the model was solved
+25,250 is the minimized amount total to satisfy the schedule
+Variables shown are the amounts of each type of worker necessary
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
